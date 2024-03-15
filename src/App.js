@@ -81,7 +81,9 @@ function App() {
         </div>
         <div className='cont'>
           <div >
-            <video src="./images/Untitled video - Made with Clipchamp (1).mp4" controls className='vd' />
+            {/* <video src="./images/Untitled video - Made with Clipchamp (1).mp4" controls className='vd' /> */}
+            <img src='./images/React App et 1 page supplémentaire - Personnel – Microsoft​ Edge 14-03-2024 23_41_33.png' className='vd'/>
+            
           </div>
           <div className='port'>
             <strong>E-commerce</strong><br />

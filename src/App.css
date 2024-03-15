@@ -1,5 +1,14 @@
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .nav {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  background-color: white;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -7,15 +16,15 @@
 }
 
 .brand {
-  position: fixed;
   font-size: 20px;
+
 
 }
 
 .navL {
-  position: fixed;
   width: 100%;
-  margin-left: 1000px;
+  margin-left: 900px;
+
 
 }
 
@@ -75,10 +84,6 @@ span:hover {
   object-fit: cover;
 
   margin-left: 200px;
-}
-
-.image:hover {
-  transform: scale(1.1);
 }
 
 .tech {
@@ -149,7 +154,12 @@ span:hover {
 
 .vd {
   width: 55%;
-  margin-left: 300px;
+  margin-left: 280px;
+
+}
+.vd:hover{
+  transform: scale(1.9);
+
 }
 
 .cont {
@@ -191,11 +201,13 @@ span:hover {
 }
 
 .footer {
+  margin-top: 100px;
+ 
   background-color: black;
   color: white;
-  padding: 15px 0;
-  margin-top: 100px;
+  padding: 20px 0;
 }
+
 
 .footer-content {
   display: flex;
