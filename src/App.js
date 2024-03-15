@@ -1,6 +1,6 @@
 import './App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faEnvelopeOpen, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 function App() {
 
@@ -92,9 +92,32 @@ function App() {
         </div>
 
       </div>
-      
+      <div className="contact">
+        <div>
+          <strong className='h2'>CONTACT</strong><br /><br />
+          <strong>Don't be shy! Hit me up! 👇</strong>
+        </div>
+        <div className='cnt'>
+          <p><FontAwesomeIcon icon={faLocationDot} className='cc' />    Morocco, Casablanca</p>
+          <p><FontAwesomeIcon icon={faEnvelopeOpen} className='cc' />    ammarisaad343@gmail.com</p>
+        </div>
+
+
+      </div>
+
+      <div className="footer">
+        <div className="footer-content">
+          <p className='p'>© 2024 YourWebsite. All rights reserved.</p>
+          <div className="social-icons">
+            <a href="https://github.com/saad942" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://www.linkedin.com/in/saad-ammari-1689b7286" target='_blank'><FontAwesomeIcon icon={faLinkedin} /></a>
+          </div>
+        </div>
+      </div>
+
 
     </div>
+
   );
 }
 

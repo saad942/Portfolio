@@ -1,6 +1,8 @@
+
 .nav {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 
 }
 
@@ -19,7 +21,7 @@
 
 span {
   padding: 10px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 span:hover {
@@ -162,4 +164,54 @@ span:hover {
 
 .tit {
   margin-left: 250px;
+}
+
+.contact {
+  margin-top: 200px;
+}
+
+.h2 {
+  color: blue;
+}
+
+.contact {
+  margin-left: 350px;
+}
+
+.cnt {
+  margin-top: 50px;
+  font-size: large;
+  display: flex;
+  gap: 50px;
+}
+
+.cc {
+  font-size: 25px;
+  color: blue;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.p {
+  margin-left: 160px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 5px;
 }
