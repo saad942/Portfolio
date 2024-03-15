@@ -1,0 +1,165 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.brand {
+  position: fixed;
+  font-size: 20px;
+
+}
+
+.navL {
+  position: fixed;
+  width: 100%;
+  margin-left: 1000px;
+
+}
+
+span {
+  padding: 10px;
+  font-size: 17px;
+}
+
+span:hover {
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 2px solid blue;
+}
+
+.home {
+  margin-top: 140px;
+  display: flex;
+  margin-left: 210px;
+
+}
+
+.str {
+  font-size: 50px;
+  position: relative;
+  /* Add position relative for absolute positioning */
+  animation: moveSTR 3s normal infinite;
+}
+
+@keyframes moveSTR {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: calc(20% - 20px);
+  }
+}
+
+.iconG {
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.iconL {
+  color: black;
+  font-size: 20px;
+
+}
+
+.image img {
+  height: 70%;
+  width: 40%;
+  border-radius: 60px;
+  object-fit: cover;
+
+  margin-left: 200px;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.tech {
+  margin-left: 210px;
+  margin-top: 16px;
+
+}
+
+.iconIM {
+  height: 50px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.tt {
+  display: flex;
+}
+
+.Abimg {
+  height: 100%;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.aboS {
+  color: blue;
+}
+
+.abo {
+  width: 90%;
+  margin-right: 40px;
+}
+
+.par {
+  font-size: 17px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  /* Align items vertically in the flex container */
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  /* Remove underline from anchor */
+  display: inline-block;
+  /* Ensure button behaves like a block element */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.project {
+  margin-top: 150px;
+  margin-right: 50px;
+}
+
+.vd {
+  width: 55%;
+  margin-left: 300px;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.port {
+  margin-right: 300px;
+}
+
+.tit {
+  margin-left: 250px;
+}
