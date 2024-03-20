@@ -48,15 +48,20 @@ function App() {
 
       <section id='hom'>
         <div className='home'>
-          <div>
+          <div className='image'>
+            <div className='blob'>
+            </div>
+            {/* <img src='./images/WhatsApp Image 2024-01-09 at 23.17.23.jpeg' alt='' /> */}
+          </div>
+
+          <div className='hhm'>
             <strong className='str'>Développeur web 👋</strong>
             <p >Hi, I'm Saad Ammari. A passionate Développeur web <br />based in Casablanca 📍</p>
             <a href="https://www.linkedin.com/in/saad-ammari-1689b7286/" className='iconL' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg" /></a>
             <a href="https://www.github.com/saad942" className='iconG' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="lg" /></a>
           </div>
-          <div className='image'>
-            <img src='./images/WhatsApp Image 2024-01-09 at 23.17.23.jpeg' alt='' />
-          </div>
+
+
         </div>
         <div className=' tt'>
           <strong className='tech'>Tech Stack |</strong>
@@ -87,6 +92,29 @@ function App() {
 
           </div>
         </div>
+        <section className='col'>
+      <div style={{ marginTop: '90px' }}>
+        <strong style={{ color: 'blue' }}>EXPÉRIENCE PROFESSIONNELLE</strong><br/><br/>
+        <div className='contents'>
+          <div className='box'>
+            <h4>de janv 2024 a ce jour</h4>
+            <h3>ARK-X Talent Factory</h3>
+            <p>
+               ARK-X Talent Factory .
+            </p>
+          </div>
+          <div className='box'>
+            <h4>De September 2023 a fevrier 2024</h4>
+            <h3>NTT DATA</h3>
+            <p>
+            En tant que stagiaire dèveloppeur Full Stack.Jai eu lopportunité de travailler sur divers
+projets passionnants. mettant en oeuvre un éventail de technologies clès, notamment
+React, Laravel. MySQL, DevOps et Nodejs            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
       </section>
 
       <section id='pro'>
@@ -112,7 +140,7 @@ function App() {
         <div className="contact">
           <div>
             <strong className='h2'>CONTACT</strong><br /><br />
-            <strong>Don't be shy! Hit me up! 👇</strong>
+            <strong> Hire me !! 👇</strong>
           </div>
           <div className='cnt'>
             <p><FontAwesomeIcon icon={faLocationDot} className='cc' />    Morocco, Casablanca</p>
