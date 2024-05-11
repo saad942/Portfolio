@@ -66,8 +66,8 @@ function App() {
         <div className=' tt'>
           <strong className='tech'>Tech Stack |</strong>
           <div >
-            {itemes.images.map((image, index) => (
-              <img key={index} src={image.src} alt='' className='iconIM' />
+            {itemes.images.map((image) => (
+              <img src={image.src} alt='' className='iconIM' />
             ))}
           </div>
         </div>
@@ -86,34 +86,34 @@ function App() {
               contribute to dynamic web projects and continuously expand my expertise in front-end
               and back-end technologies .</p><br />
 
-            <a className="button" href="./images/Professional Modern CV Resume (1).pdf" download="mon-cv.pdf">
+            <a className="button" href="./images/AmmariSaad.pdf" download="cv-saad.pdf">
               <FontAwesomeIcon icon={faDownload} /> Télécharger CV
             </a>
 
           </div>
         </div>
         <section className='col'>
-      <div style={{ marginTop: '90px' }}>
-        <strong style={{ color: 'blue' }}>EXPÉRIENCE PROFESSIONNELLE</strong><br/><br/>
-        <div className='contents'>
-          <div className='box'>
-            <h4>de janv 2024 a ce jour</h4>
-            <h3>ARK-X Talent Factory</h3>
-            <p>
-               ARK-X Talent Factory .
-            </p>
+          <div style={{ marginTop: '90px' }}>
+            <strong style={{ color: 'blue' }}>EXPÉRIENCE PROFESSIONNELLE</strong><br /><br />
+            <div className='contents'>
+              <div className='box'>
+                <h4>de janv 2024 a ce jour</h4>
+                <h3>ARK-X Talent Factory</h3>
+                <p>
+                  ARK-X Talent Factory .
+                </p>
+              </div>
+              <div className='box'>
+                <h4>De September 2023 a fevrier 2024</h4>
+                <h3>NTT DATA</h3>
+                <p>
+                  En tant que stagiaire dèveloppeur Full Stack.Jai eu lopportunité de travailler sur divers
+                  projets passionnants. mettant en oeuvre un éventail de technologies clès, notamment
+                  React, Laravel. MySQL, DevOps et Nodejs            </p>
+              </div>
+            </div>
           </div>
-          <div className='box'>
-            <h4>De September 2023 a fevrier 2024</h4>
-            <h3>NTT DATA</h3>
-            <p>
-            En tant que stagiaire dèveloppeur Full Stack.Jai eu lopportunité de travailler sur divers
-projets passionnants. mettant en oeuvre un éventail de technologies clès, notamment
-React, Laravel. MySQL, DevOps et Nodejs            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
       </section>
 
