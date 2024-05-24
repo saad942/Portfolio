@@ -132,7 +132,24 @@ function App() {
               <p>I am presenting my simple e-commerce platform, developed with React, Node.js, Express.js and MySQL.</p><br />
               <a href="https://www.github.com/saad942/e-commerce" className='iconG' target='_blank' rel="noopener noreferrer">Code <FontAwesomeIcon icon={faGithub} size="lg" /></a>
             </div>
+          </div><br/><br/><br/><br/><br/><br/>
+             <div className='tit'>
+            <strong className='aboS'>Blog App</strong><br />
+            <strong>project is a unique piece of development 🌩️</strong>
           </div>
+          <div className='cont'>
+            <div >
+              <img src='./images/React App - Google Chrome 24_05_2024 12_08_32.png' className='vd' />
+            </div>
+
+            <div className='port'>
+              <strong>Blog App</strong><br />
+              <p>I am presenting my simple Blog App platform, developed with React, Node.js, Express.js and MongoDB.</p><br />
+              <a href="https://www.github.com/saad942/BlogPost" className='iconG' target='_blank' rel="noopener noreferrer">Code <FontAwesomeIcon icon={faGithub} size="lg" /></a>
+            </div>
+            
+          </div>
+
         </div>
       </section>
 
