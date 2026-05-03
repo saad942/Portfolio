@@ -454,153 +454,91 @@ span:hover {
   transform: translateX(4px);
 }
 
-/* ================================
-   MOBILE — 768px
-   ================================ */
+/* Media queries for responsiveness */
 @media (max-width: 768px) {
-
-  /* Nav */
   .nav {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 12px 16px;
-    gap: 8px;
-    z-index: 1000;
+    padding: 10px;
   }
 
   .navL {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 0;
     margin-left: 0;
+    justify-content: center;
   }
 
-  span {
-    font-size: 14px;
-    padding: 6px 8px;
-  }
-
-  span:hover {
-    font-size: 14px;
-  }
-
-  /* Home */
-  #hom {
-    padding-top: 100px;
+  .col {
+    margin-left: 0;
   }
 
   .home {
     margin-left: 0;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 0 16px;
-  }
-
-  .image {
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    margin-top: 0;
-  }
-
-  .blob {
-    width: 220px;
-    height: 220px;
-    margin: 0;
   }
 
   .hhm {
     margin-left: 0;
-    margin-top: 24px;
-    width: 100%;
+    margin-top: 20px;
   }
 
-  .str {
-    font-size: 28px;
-  }
-
-  /* Tech stack */
-  .tt {
-    margin-left: 0;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 16px;
+  .image {
+    flex-direction: column;
+    align-items: center;
   }
 
   .tech {
     margin-left: 0;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 8px;
   }
 
-  .iconIM {
-    height: 38px;
-    width: 44px;
-    margin-left: 8px;
-  }
-
-  /* About */
   .about {
     margin-left: 0;
-    margin-top: 40px;
+    margin-top: 50px;
     flex-direction: column;
     align-items: center;
-    padding: 0 16px;
-    text-align: center;
   }
 
-  .Abimg {
-    width: 100%;
-    max-width: 280px;
+  .button {
+    font-size: 14px;
   }
 
-  .abo {
-    width: 100%;
+  .project {
     margin-right: 0;
-    margin-top: 20px;
-    text-align: left;
   }
 
-  /* Experience timeline */
-  .col {
+  .vd {
     margin-left: 0;
-    padding: 0 16px;
-  }
-
-  .col .contents {
-    margin-left: 10px;
-    padding: 0 0 0 20px;
-  }
-
-  .col .contents .box {
     width: 100%;
   }
 
-  .col .contents .box::before {
-    right: calc(100% + 14px);
-  }
-
-  /* Portfolio */
-  .portfolio-section {
-    padding: 2rem 16px;
-  }
-
-  .portfolio-container-box {
+  .cont {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+    align-items: stretch;
   }
 
-  .section-heading {
-    font-size: 1.8rem;
+  .port {
+    margin-right: 0;
   }
 
-  .btn {
-    width: 100%;
-    justify-content: center;
+  .tit {
+    margin-left: 0;
+  }
+
+  .contact {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    margin-right: 0;
+  }
+
+  .p {
+    margin-left: 0;
   }
 
   .portfolio-section-container {
@@ -611,95 +549,5 @@ span:hover {
   .portfolio-section-card {
     flex: 1 1 100%;
     max-width: 100%;
-  }
-
-  /* Contact */
-  .contact {
-    padding: 16px;
-    max-width: 100%;
-    margin: 0 16px;
-  }
-
-  /* Footer */
-  .footer {
-    margin-top: 40px;
-    padding: 20px 16px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .social-icons {
-    margin-right: 0;
-  }
-
-  .p {
-    margin-left: 0;
-    text-align: center;
-  }
-}
-
-/* ================================
-   SMALL MOBILE — 480px
-   ================================ */
-@media (max-width: 480px) {
-
-  .nav {
-    padding: 10px 12px;
-  }
-
-  span {
-    font-size: 13px;
-    padding: 5px 6px;
-  }
-
-  span:hover {
-    font-size: 13px;
-  }
-
-  #hom {
-    padding-top: 110px;
-  }
-
-  .blob {
-    width: 180px;
-    height: 180px;
-  }
-
-  .str {
-    font-size: 24px;
-  }
-
-  .hhm p {
-    font-size: 15px;
-  }
-
-  .iconIM {
-    height: 32px;
-    width: 38px;
-  }
-
-  .col .contents .box {
-    padding: 14px;
-  }
-
-  .box h3 {
-    font-size: 15px;
-  }
-
-  .box p {
-    font-size: 14px;
-  }
-
-  .section-heading {
-    font-size: 1.5rem;
-  }
-
-  .contact {
-    margin: 0 8px;
-    padding: 14px;
   }
 }
