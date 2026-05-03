@@ -1,6 +1,6 @@
 import './App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload, faEnvelopeOpen, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faDownload} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -79,7 +79,6 @@ function App() {
           <div className='image'>
             <div className='blob'>
             </div>
-            {/* <img src='./images/WhatsApp Image 2024-01-09 at 23.17.23.jpeg' alt='' /> */}
           </div>
 
           <div className='hhm'>
@@ -114,7 +113,7 @@ function App() {
               contribute to dynamic web projects and continuously expand my expertise in front-end
               and back-end technologies .</p><br />
 
-            <a className="button" href="./images/Professional Modern CV Resume (1).pdf" download="mon-cv.pdf">
+            <a className="button" href="./images/saad-cv-2026.pdf" download="mon-cv.pdf">
               <FontAwesomeIcon icon={faDownload} /> Télécharger CV
             </a>
 
@@ -125,14 +124,30 @@ function App() {
         <strong style={{ color: '#b6adad' }}>EXPÉRIENCE PROFESSIONNELLE</strong><br/><br/>
         <div className='contents'>
           <div className='box'>
-            <h4>de janv 2024 a ce jour</h4>
-            <h3>ARK-X Talent Factory</h3>
+            <h4> NOVEMBRE 2025 – PRÉSENT</h4>
+            <h3>DÉVELOPPEUR FRONT-END</h3>
             <p>
-               ARK-X Talent Factory .
+               Développement d’applications web front end.
             </p>
           </div>
           <div className='box'>
-            <h4>De September 2023 a fevrier 2024</h4>
+            <h4>01 AOÛT 2024 – NOVEMBRE 2025</h4>
+            <h3>AGENT DE SAISIE | 3STD SARL</h3>
+            <p>
+               -Accueil et enregistrement des patients<br/>
+-Respect de la confidentialité des données<br/>
+-Collaboration avec le personnel
+            </p>
+          </div>
+          <div className='box'>
+            <h4> 10/01/2024 – 14/06/ 2024</h4>
+            <h3>ARK-X Talent Factory</h3>
+            <p>
+               Développement d’applications web full-stack avec MERN Stack.
+            </p>
+          </div>
+          <div className='box'>
+            <h4>SEPTEMBRE 2023 – FÉVRIER 2024</h4>
             <h3>NTT DATA</h3>
             <p>
             En tant que stagiaire dèveloppeur Full Stack.Jai eu lopportunité de travailler sur divers
@@ -269,7 +284,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
 <section id='con'>
         <div className="contact">
           <div>
-            <strong className='h2'>CONTACT</strong><br /><br />
+            <strong className='h2'>Contact</strong><br /><br />
             <strong> Hire me !! 👇</strong>
           </div>
           <form className="cnt" ref={form} onSubmit={sendEmail}>
@@ -286,7 +301,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
 
       <div className="footer">
         <div className="footer-content">
-          <p className='p'>© 2024 YourWebsite. All rights reserved.</p>
+          <p className='p'>© 2026 YourWebsite. All rights reserved.</p>
           <div className="social-icons">
             <a href="https://github.com/saad942" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://www.linkedin.com/in/saad-ammari-1689b7286" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>

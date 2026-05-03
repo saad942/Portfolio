@@ -125,14 +125,14 @@ span:hover {
 }
 
 .blob {
-  background-image: url(/public/images/WhatsApp\ Image\ 2024-01-09\ at\ 23.17.23.jpeg);
+  background-image: url(/public/images/SAAD.jpg);
   width: 380px;
   height: 380px;
   background-size: cover;
   -webkit-background-position: center;
   background-position: center center;
   margin: 20px;
-  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+  box-shadow: 0 5px 5px 5px rgba(16, 20, 26, 0.2);
   animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
 }
@@ -454,91 +454,153 @@ span:hover {
   transform: translateX(4px);
 }
 
-/* Media queries for responsiveness */
+/* ================================
+   MOBILE — 768px
+   ================================ */
 @media (max-width: 768px) {
+
+  /* Nav */
   .nav {
     flex-direction: column;
-    padding: 10px;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 8px;
+    z-index: 1000;
   }
 
   .navL {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0;
     margin-left: 0;
-    justify-content: center;
   }
 
-  .col {
-    margin-left: 0;
+  span {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+
+  span:hover {
+    font-size: 14px;
+  }
+
+  /* Home */
+  #hom {
+    padding-top: 100px;
   }
 
   .home {
     margin-left: 0;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .image {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 0;
+  }
+
+  .blob {
+    width: 220px;
+    height: 220px;
+    margin: 0;
   }
 
   .hhm {
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 24px;
+    width: 100%;
   }
 
-  .image {
-    flex-direction: column;
-    align-items: center;
+  .str {
+    font-size: 28px;
+  }
+
+  /* Tech stack */
+  .tt {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 16px;
   }
 
   .tech {
     margin-left: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
   }
 
+  .iconIM {
+    height: 38px;
+    width: 44px;
+    margin-left: 8px;
+  }
+
+  /* About */
   .about {
     margin-left: 0;
-    margin-top: 50px;
+    margin-top: 40px;
     flex-direction: column;
     align-items: center;
+    padding: 0 16px;
+    text-align: center;
   }
 
-  .button {
-    font-size: 14px;
+  .Abimg {
+    width: 100%;
+    max-width: 280px;
   }
 
-  .project {
+  .abo {
+    width: 100%;
     margin-right: 0;
+    margin-top: 20px;
+    text-align: left;
   }
 
-  .vd {
+  /* Experience timeline */
+  .col {
     margin-left: 0;
+    padding: 0 16px;
+  }
+
+  .col .contents {
+    margin-left: 10px;
+    padding: 0 0 0 20px;
+  }
+
+  .col .contents .box {
     width: 100%;
   }
 
-  .cont {
+  .col .contents .box::before {
+    right: calc(100% + 14px);
+  }
+
+  /* Portfolio */
+  .portfolio-section {
+    padding: 2rem 16px;
+  }
+
+  .portfolio-container-box {
     flex-direction: column;
-    align-items: stretch;
+    align-items: flex-start;
+    gap: 12px;
   }
 
-  .port {
-    margin-right: 0;
+  .section-heading {
+    font-size: 1.8rem;
   }
 
-  .tit {
-    margin-left: 0;
-  }
-
-  .contact {
-    padding: 15px;
-    max-width: 100%;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .social-icons {
-    margin-right: 0;
-  }
-
-  .p {
-    margin-left: 0;
+  .btn {
+    width: 100%;
+    justify-content: center;
   }
 
   .portfolio-section-container {
@@ -549,5 +611,95 @@ span:hover {
   .portfolio-section-card {
     flex: 1 1 100%;
     max-width: 100%;
+  }
+
+  /* Contact */
+  .contact {
+    padding: 16px;
+    max-width: 100%;
+    margin: 0 16px;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 40px;
+    padding: 20px 16px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .social-icons {
+    margin-right: 0;
+  }
+
+  .p {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* ================================
+   SMALL MOBILE — 480px
+   ================================ */
+@media (max-width: 480px) {
+
+  .nav {
+    padding: 10px 12px;
+  }
+
+  span {
+    font-size: 13px;
+    padding: 5px 6px;
+  }
+
+  span:hover {
+    font-size: 13px;
+  }
+
+  #hom {
+    padding-top: 110px;
+  }
+
+  .blob {
+    width: 180px;
+    height: 180px;
+  }
+
+  .str {
+    font-size: 24px;
+  }
+
+  .hhm p {
+    font-size: 15px;
+  }
+
+  .iconIM {
+    height: 32px;
+    width: 38px;
+  }
+
+  .col .contents .box {
+    padding: 14px;
+  }
+
+  .box h3 {
+    font-size: 15px;
+  }
+
+  .box p {
+    font-size: 14px;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    margin: 0 8px;
+    padding: 14px;
   }
 }
