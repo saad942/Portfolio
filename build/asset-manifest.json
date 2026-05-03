@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2100be97.css",
+    "main.js": "/Portfolio/static/js/main.04cca4ff.js",
+    "static/js/453.0a7f0965.chunk.js": "/Portfolio/static/js/453.0a7f0965.chunk.js",
+    "static/media/SAAD.jpg": "/Portfolio/static/media/SAAD.3dde2dd91a26def7c5fb.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.2100be97.css.map": "/Portfolio/static/css/main.2100be97.css.map",
+    "main.04cca4ff.js.map": "/Portfolio/static/js/main.04cca4ff.js.map",
+    "453.0a7f0965.chunk.js.map": "/Portfolio/static/js/453.0a7f0965.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2100be97.css",
+    "static/js/main.04cca4ff.js"
+  ]
+}
