@@ -160,24 +160,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
 
       </section>
 
-      {/* <section id='pro'>
-        <div className='project' >
-          <div className='tit'>
-            <strong className='aboS'>PORTFOLIO</strong><br />
-            <strong>project is a unique piece of development 🌩️</strong>
-          </div>
-          <div className='cont'>
-            <div >
-              <img src='./images/React App et 1 page supplémentaire - Personnel – Microsoft​ Edge 14-03-2024 23_41_33.png' className='vd' />
-            </div>
-            <div className='port'>
-              <strong>E-commerce</strong><br />
-              <p>I am presenting my simple e-commerce platform, developed with React, Node.js, Express.js and MySQL.</p><br />
-              <a href="https://www.github.com/saad942/e-commerce" className='iconG' target='_blank' rel="noopener noreferrer">Code <FontAwesomeIcon icon={faGithub} size="lg" /></a>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      
 
 <section className="portfolio-section" id="pro">
   <div className="portfolio-container-box">
@@ -186,7 +169,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
       <h2 className="section-heading">My Portfolio</h2>
     </div>
     <div>
-      <button className="btn btn-github" onClick={() => window.open('https://www.github.com/saad942', '_blank')}>
+      <button className="btn btn-github" onClick={() => window.open('https://www.github.com/saad942', '_blank','noopener,noreferrer')}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -216,7 +199,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
           <p className="text-md">I am presenting my simple e-commerce platform, developed with React, Node.js, Express.js, and MySQL.</p>
         </div>
         <p className="text-sm portfolio-link">
-          <a href="https://www.github.com/saad942/e-commerce" target="_blank">View Project</a>
+          <a href="https://www.github.com/saad942/e-commerce" target="_blank"  rel="noopener noreferrer">View Project</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -245,7 +228,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
           <p className="text-md">I am presenting my simple Blog App platform, developed with React, Node.js, Express.js and MongoDB.</p>
         </div>
         <p className="text-sm portfolio-link">
-          <a href="https://www.github.com/saad942/BlogPost" target="_blank">View Project</a>
+          <a href="https://www.github.com/saad942/BlogPost" target="_blank"  rel="noopener noreferrer">View Project</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -267,18 +250,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
   </div>
 </section>
 
-      {/* <section id='con'>
-        <div className="contact">
-          <div>
-            <strong className='h2'>CONTACT</strong><br /><br />
-            <strong> Hire me !! 👇</strong>
-          </div>
-          <div className='cnt'>
-            <p><FontAwesomeIcon icon={faLocationDot} className='cc' />    Morocco, Casablanca</p>
-            <p><FontAwesomeIcon icon={faEnvelopeOpen} className='cc' />    ammarisaad343@gmail.com</p>
-          </div>
-        </div>
-      </section> */}<br/><br/><br/><br/><br/>
+     =<br/><br/><br/><br/><br/>
       <Alert message={alertMessage} type={alertType} onClose={() => setAlertMessage('')} />
 
 <section id='con'>
