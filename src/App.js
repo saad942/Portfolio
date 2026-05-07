@@ -113,7 +113,7 @@ function App() {
               contribute to dynamic web projects and continuously expand my expertise in front-end
               and back-end technologies .</p><br />
 
-            <a className="button" href="./images/saad-cv-2026.pdf" download="mon-cv.pdf">
+            <a className="button" href="./images/SAAD-2026" download="mon-cv.pdf">
               <FontAwesomeIcon icon={faDownload} /> Télécharger CV
             </a>
 
