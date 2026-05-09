@@ -28,6 +28,7 @@ function App() {
         () => {
           setAlertMessage('SUCCESS! Your message has been sent.');
           setAlertType('success');
+                  e.target.reset();
           setTimeout(() => setAlertMessage(''), 3000); // Hide alert after 3 seconds
         },
         (error) => {
