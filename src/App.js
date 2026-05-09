@@ -83,7 +83,7 @@ function App() {
 
           <div className='hhm'>
             <strong className='str'>Développeur web 👋</strong>
-            <p >Hi, I'm Saad Ammari. A passionate Développeur web <br />based in Casablanca 📍</p>
+            <p >Hi, I'm Saad Ammari — a creative Full-Stack Web Developer based in Casablanca, specializing in building modern, responsive, and user-friendly web applications using the MERN Stack. <br />based in Casablanca 📍</p>
             <a href="https://www.linkedin.com/in/saad-ammari-1689b7286/" className='iconL' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="lg" /></a>
             <a href="https://www.github.com/saad942" className='iconG' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="lg" /></a>
           </div>
