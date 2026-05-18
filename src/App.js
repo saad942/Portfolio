@@ -221,6 +221,35 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
     </div>
     <div className="portfolio-section-card">
       <div className="portfolio-section-img">
+        <img src='./images/React App - Google Chrome 18-05-2026 7_53_06.png' alt="Placeholder" />
+      </div>
+      <div className="portfolio-section-card-content">
+        <div>
+          <h3 className="portfolio-section-title">Service indépendant – Nettoyage de maisons</h3>
+          <p className="text-md">I am presenting my simple Nettoyage de maisons platform, developed with React, Node.js, Express.js, and MongoDB.</p>
+        </div>
+        <p className="text-sm portfolio-link">
+          <a href="https://www.github.com/ saad942/DirYdik" target="_blank"  rel="noopener noreferrer">View Project</a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 20 19"
+            fill="none"
+          >
+            <path
+              d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+              stroke="currentColor"
+              strokeWidth="2.66667"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </p>
+      </div>
+    </div>
+    <div className="portfolio-section-card">
+      <div className="portfolio-section-img">
         <img src='./images/React App - Google Chrome 22_05_2024 16_25_55.png' alt="Placeholder" />
       </div>
       <div className="portfolio-section-card-content">
@@ -247,6 +276,7 @@ React, Laravel. MySQL, DevOps et Nodejs            </p>
           </svg>
         </p>
       </div>
+      
     </div>
   </div>
 </section>
